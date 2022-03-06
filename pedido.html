@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelerias Loza | Pedido</title>
+</head>
+<body>
+    <header>
+        <img src="logo-pasteleria.png" alt="Pastelerias Loza" width="250" height="250">
+        <h1>¡Realiza tu pedido!</h1>
+    </header>
+    <section>
+        <form action="">
+            <label for="">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label for="">Apellido</label>
+            <input type="text" name="apellido" id="apellido">
+            <br>
+            <label for="">Dirección</label>
+            <input type="text" name="direccion" id="direccion">
+            <br>
+            <label for="">Teléfono</label>
+            <input type="tel" name="telefono" id="telefono" maxlength="10">
+            <br>
+            <label for="">Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <!--Personalizacion de pedido-->
+            <label for="">Pastel</label><br>
+            <select name="pasteles" id="pasteles">
+                <option value="-">-</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Fresa">Fresa</option>
+                <option value="Vainilla">Vainilla</option>
+            </select>
+            <br>
+            <label for="">Adorno</label><br>
+            <select name="adornos" id="adornos">
+                <option value="-">-</option>
+                <option value="Adorno 1">Adorno 1</option>
+                <option value="Adorno 2">Adorno 2</option>
+                <option value="Adorno 3">Adorno 3</option>
+            </select>
+            <br>
+            <label for="">Cantidad</label><br>
+            <input type="number" name="cantidad" id="cantidad" placeholder="Cantidad">
+            <br>
+            <label for="">Forma de pago</label><br>
+            <select name="pago" id="pago">
+                <option value="efectivo">Efectivo</option>
+                <option value="tarjeta">Tarjeta</option>
+            </select>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
